@@ -1,0 +1,35 @@
+{
+  "name": "fashion-ai-prototype-server",
+  "version": "1.0.0",
+  "description": "Fashion AI Prototype - Backend Server with AI Integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "openai": "^6.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "fashion",
+    "ai",
+    "backend",
+    "express",
+    "api"
+  ],
+  "author": "Fashion AI Team",
+  "license": "MIT"
+}
