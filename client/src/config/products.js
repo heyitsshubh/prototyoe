@@ -6,3 +6,4 @@ export const PRODUCTS = {
     defaultColor: "#222222"
   }
 };
+// Note: The model URLs are placeholders. Replace them with actual URLs to your 3D models.
