@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function askAI(message, productId){
   try {
-    const res = await axios.post("http://localhost:2000/chat",{
+    const res = await axios.post("/api/chat",{
       message, 
       productId
     }, {
