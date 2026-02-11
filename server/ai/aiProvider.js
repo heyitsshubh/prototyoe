@@ -1,20 +1,17 @@
-// import { openaiSuggest } from "./providers/openai.js";
-
-// export async function generateAdvice(message, product) {
-
-//  const prompt = `
-// Product: ${product.name}
-// Category: ${product.category}
-// Material: ${product.material}
-// Style: ${product.style}
-
-// User: ${message}
-// `;
-
-//  return await openaiSuggest(prompt);
-// }
-
 // MOCK AI PROVIDER (NO BILLING REQUIRED)
+
+export async function generateAdvice(message, product) {
+  const prompt = `
+Product: ${product.name}
+Category: ${product.category}
+Material: ${product.material}
+Style: ${product.style}
+
+User: ${message}
+`;
+
+  return await openaiSuggest(prompt);
+}
 
 export async function openaiSuggest(prompt) {
 
